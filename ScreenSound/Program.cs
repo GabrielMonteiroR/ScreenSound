@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Structured programming ..");
+﻿// Screen Sound
+
+string welcome = "Welcome to Screen sound";
+Console.WriteLine(welcome);
