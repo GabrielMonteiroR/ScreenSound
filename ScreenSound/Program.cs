@@ -1,4 +1,4 @@
-﻿using ScreenSound;
+using ScreenSound;
 
 Music musicOne = new Music();
 Music musicTwo = new Music();
@@ -29,4 +29,3 @@ Band band = new Band();
 band.Name = "Digitalism";
 band.AddAlbum(album);
 band.ShowAllBandDisks();
-
