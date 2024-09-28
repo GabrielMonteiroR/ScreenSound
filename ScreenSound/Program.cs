@@ -23,3 +23,5 @@ album.Name = "Album One";
 album.AddMusic(musicOne);
 album.AddMusic(musicTwo);
 
+album.ShowMusics(album);
+

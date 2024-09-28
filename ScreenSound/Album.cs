@@ -9,13 +9,13 @@ namespace ScreenSound
     internal class Album
     {
         public string Name { get; set; }
-        public new List<Music> musics { get; set; }
+        private List<Music> musics { get; set; }
+        public double duration => musics.Sum(music => music.Duration);
 
         public Album()
         {
             musics = new List<Music>();
         }
-
 
         public void AddMusic(Music music)
         {
@@ -28,6 +28,7 @@ namespace ScreenSound
             {
                 Console.WriteLine(music.Name);
             }
+            Console.WriteLine($"DURAÇÃO: {duration}");
         }
     }
 }
