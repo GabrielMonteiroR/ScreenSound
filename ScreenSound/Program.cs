@@ -13,4 +13,13 @@ musicOne.IsAvaliable = true;
 musicTwo.Name = "Musica 2";
 musicTwo.Author = "Autor 2";    
 musicTwo.Duration = 4.2;       
-musicTwo.IsAvaliable = true;
+musicTwo.IsAvaliable = false;
+
+//musicOne.ShowMusic();
+//musicTwo.ShowMusic();
+
+Album album = new Album();
+album.Name = "Album One";
+album.AddMusic(musicOne);
+album.AddMusic(musicTwo);
+
