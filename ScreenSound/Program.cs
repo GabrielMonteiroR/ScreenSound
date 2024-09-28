@@ -25,3 +25,8 @@ album.AddMusic(musicTwo);
 
 album.ShowMusics(album);
 
+Band band = new Band();
+band.Name = "Digitalism";
+band.AddAlbum(album);
+band.ShowAllBandDisks();
+

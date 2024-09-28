@@ -23,8 +23,11 @@ namespace ScreenSound
 
         public void ShowAllBandDisks()
         {
-            foreach (var music in albums) {
-                Console.WriteLine(music);
+            foreach (var music in albums)
+            {
+                Console.WriteLine($"BANDA: {Name}");
+                Console.WriteLine($"MUSICAS: {music.Name}");
+            }
         }
     }
 }
