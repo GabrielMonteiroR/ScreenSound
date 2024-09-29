@@ -22,7 +22,27 @@ try
         //LinqFilter.FiltrarTodosGenerosMusicais(musics);
         //LinqOrder.ExibirListaDeArtistasOrdenado(musics);
         //LinqFilter.FiltrarArtistasPorGeneroMusical(musics, "rock");
-        LinqFilter.FiltrarMusicasPorArtista(musics,"Michel Teló");
+        //LinqFilter.FiltrarMusicasPorArtista(musics,"Michel Teló");
+
+        //var musicasPeferidasPessoa1 = new MusicasPreferidas("Pessoa1");
+        //musicasPeferidasPessoa1.AdicionarMusicasFavoritas(musics[1]);
+        //musicasPeferidasPessoa1.AdicionarMusicasFavoritas(musics[2]);
+        //musicasPeferidasPessoa1.AdicionarMusicasFavoritas(musics[3]);
+        //musicasPeferidasPessoa1.AdicionarMusicasFavoritas(musics[4]);
+        //musicasPeferidasPessoa1.AdicionarMusicasFavoritas(musics[5]);
+
+        //musicasPeferidasPessoa1.ExibirMusicasFavoritas();
+
+        var musicasPreferidasPessoa2 = new MusicasPreferidas("pessoa2");
+        musicasPreferidasPessoa2.AdicionarMusicasFavoritas(musics[6]);
+        musicasPreferidasPessoa2.AdicionarMusicasFavoritas(musics[7]);
+        musicasPreferidasPessoa2.AdicionarMusicasFavoritas(musics[8]);
+        musicasPreferidasPessoa2.AdicionarMusicasFavoritas(musics[9]);
+        musicasPreferidasPessoa2.AdicionarMusicasFavoritas(musics[10]);
+
+        musicasPreferidasPessoa2.ExibirMusicasFavoritas();
+
+        musicasPreferidasPessoa2.GerarArquivoJson();
     }
     else
     {
